@@ -1,0 +1,142 @@
+.signupbox {
+    position: relative;
+   
+    border: 2px solid #e7e7e7;
+  
+    border-radius: 8px;
+  
+    padding: 0.5rem;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15cm;
+    background: linear-gradient(90deg, rgb(40, 40, 40) 0%, rgb(17, 17, 17) 100%);
+    box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .heading-signup{
+    margin-left: 190px;
+    margin-bottom: 50px;
+    color: #fff;
+  }
+  
+  .label-signup{
+      margin-top: 20px;
+      margin-left: 570px;
+      font-size: 15px;
+      font-family: "Open Sans", sans-serif;
+  }
+  
+  
+  
+    .input-signup{
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      align-items: center;
+      margin: auto;
+      min-width: 18em;
+      height: 37px;
+      padding: 0px 10px;
+      font-size: 16px;
+      font-family: "Open Sans", sans-serif;
+      background-color: #f3f3f3;
+      border: 0;
+      border-radius: 4px;
+      margin-bottom: 31px;
+      transition: all 250ms ease-in-out;
+    }
+  
+    .button {
+       
+     
+      
+      margin-top: 10px;
+    margin-left: 180px;
+      position: relative;
+      background-color: #3498db;
+      border: none;
+      font-size: 20px;
+      color: #ffffff;
+      padding: 10px;
+      width: 150px;
+      text-align: center;
+      transition-duration: 0.4s;
+      text-decoration: none;
+      overflow: hidden;
+      cursor: pointer;
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      border-radius: 8px;
+    }
+  
+    .button:after {
+      content: "";
+      background: #f1f1f1;
+      display: block;
+      position: absolute;
+      padding-top: 300%;
+      padding-left: 350%;
+      margin-left: -20px !important;
+      margin-top: -120%;
+      opacity: 0;
+      transition: all 0.8s;
+    }
+  
+    .button:active:after {
+      padding: 0;
+      margin: 0;
+      opacity: 1;
+      transition: 0s;
+    }
+  
+    .custom-control-label {
+      font-weight: 400;
+    }
+  
+  .button-login{
+   
+    margin-top: 10px;
+    margin-left: 607px;
+    position: relative;
+    background-color: #20c050;
+    border: none;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+      0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
+  }
+  
+  .button-login:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s;
+  }
+  
+  .button-login:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0.2s;
+  }
+
+.custom-control-label{
+    margin-left: 100px;
+}
+  
+  

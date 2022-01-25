@@ -12,4 +12,37 @@ code {
     monospace;
 }
 
+.carousel {
+  border-radius: 10px;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+}
+
+.cards {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  grid-auto-rows: auto;
+
+  grid-gap: 1rem;
+}
+
+.CardGroup {
+  border: 2px solid #e7e7e7;
+
+  border-radius: 4px;
+
+  padding: 0.5rem;
+  margin-left: 50px;
+  margin-right: 50px;
+  
+  
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+}
+
+.footer {
+ 
+}
+
+
 

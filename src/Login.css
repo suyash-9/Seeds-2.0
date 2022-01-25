@@ -1,19 +1,33 @@
+.parent{
+ height: 100vh;
+}
 .loginbox {
   border: 2px solid #e7e7e7;
-
-  border-radius: 4px;
-
-  padding: 0.5rem;
-  margin-left: 300px;
-  margin-right: 100px;
-  margin-top: 100px;
-  width: 20cm;
-
-  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+  position: relative;
+    border-radius: 8px;
+   height:400px;
+    padding: 0.5rem;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15cm;
+    background: linear-gradient(90deg, rgb(40, 40, 40) 0%, rgb(17, 17, 17) 100%);
+  
+    box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
 }
 
+
+
 .heading{
+  margin: auto;
+  color: #fff;
   margin-bottom: 50px;
+}
+
+.label{
+  margin: auto;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
 }
 
 
@@ -23,8 +37,7 @@
     flex-direction: column;
     align-content: center;
     align-items: center;
-    margin-top: 6px;
-    margin-left: 290px;
+    margin: auto;
     min-width: 18em;
     height: 37px;
     padding: 0px 10px;
@@ -41,6 +54,8 @@
    
     
     margin-top: 10px;
+    margin-left: auto;
+    margin-right: 179px;
   
     position: relative;
     background-color: #3498db;
@@ -78,4 +93,62 @@
     opacity: 1;
     transition: 0s;
   }
+
+  .custom-control-label {
+    position: relative;
+    font-weight: 400;
+    color: #fff;
+    margin-right: 140px;
+    
+  }
+.custom-control-custom-checkbox{
+  margin: auto;
+  position: relative;
+  margin-left: 150px;
+}
+
+.button-signup{
+  margin-top: 10px;
+  
+  position: relative;
+  background-color: #20c050;
+  border: none;
+  font-size: 20px;
+  color: #ffffff;
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 8px;
+}
+
+.button-signup:after {
+  content: "";
+  background: #f1f1f1;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s;
+}
+
+.button-signup:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0.2s;
+}
+
+.label2{
+  margin-top: 40px;
+  color: #ffffff;
+}
 
